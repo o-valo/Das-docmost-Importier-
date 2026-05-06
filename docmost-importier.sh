@@ -1,7 +1,7 @@
 #!/bin/bash
 # ==============================================================================
 # SCRIPT NAME:  docmost-importier.sh
-# VERSION:      4.4 (GitHub Edition - The Importier)
+# VERSION:      1.1 (GitHub Edition - The Importier)
 # ==============================================================================
 
 SCRIPT_DIR=$(dirname "$(readlink -f "$0")")
