@@ -1,0 +1,6 @@
+# System-Level Requirements (Install via apt)
+# ------------------------------------------
+jq              # JSON processing
+inotify-tools   # Directory watching (inotifywait)
+pandoc          # Document conversion (HTML -> MD)
+curl            # API interaction
