@@ -17,7 +17,6 @@ Dateien, ohne die CPU zu belasten.
 Folgende Werkzeuge müssen auf deinem Ubot/Server installiert sein: ```bash sudo
 apt update && sudo apt install jq inotify-tools pandoc curl -y
 
-
 ## Installation & Einrichtung
 
 Repository klonen:
@@ -25,8 +24,39 @@ Repository klonen:
 Bash
 
 <CODE>
-git clone git clone https://github.com/dein-nutzername/docmost-importier.git
+git clone https://github.com/dein-nutzername/docmost-importier.git
 cd docmost-importier
 </CODE>
+
+
+Skript scharf schalten:
+
+Bash
+<CODE>
+chmod +x docmost-importier.sh
+</CODE>
+
+
+## Betrieb als Systemdienst
+
+Um den Importierer 24/7 schuften zu lassen:
+
+Pfade in der docmost-importier.service prüfen.
+Dienst registrieren:
+
+
+Bash
+<CODE>
+sudo cp docmost-importier.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable docmost-importier.service
+sudo systemctl start docmost-importier.service
+</CODE>
+
+
+
+
+
+
 
 
