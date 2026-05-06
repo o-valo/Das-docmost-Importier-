@@ -55,6 +55,21 @@ sudo systemctl start docmost-importier.service
 
 
 
+## System-Requirements 🛠️
+
+Der **Docmost Importier** benötigt ein paar Werkzeuge, um seine Arbeit zu verrichten. 
+Du kannst prüfen, ob sie installiert sind, oder sie direkt mit folgendem Befehl
+nachinstallieren:
+
+### Schnell-Installation (Ubuntu/Debian)
+```bash
+sudo apt update && sudo apt install -y jq inotify-tools pandoc curl
+
+
+
+
+
+
 
 
 
