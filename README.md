@@ -1,4 +1,4 @@
-# Docmost Importier 🏗️
+# Das Docmost Importier 🏗️
 
 Des **Docmost Importier** ist ein robuster Systemdienst für Linux, der wie ein
 Arbeitstier im Hintergrund schuftet. Er überwacht ein Verzeichnis auf
