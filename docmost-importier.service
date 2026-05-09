@@ -1,15 +1,16 @@
+## example
 [Unit]
 Description=Docmost Importier Arbeitstier
 After=network.target
 
 [Service]
-User=olav
-Group=olav
-WorkingDirectory=/home/olav/progs/docmost-importier
-ExecStart=/bin/bash /home/olav/progs/docmost-importier/docmost-importier.sh
+User=user
+Group=group
+WorkingDirectory=/home/user/progs/docmost-importier
+ExecStart=/bin/bash /home/user/progs/docmost-importier/docmost-importier.sh
 Restart=always
 RestartSec=15
-StandardOutput=append:/home/olav/progs/docmost-importier/docmost_watch.log
+StandardOutput=append:/home/user/progs/docmost-importier/docmost_watch.log
 StandardError=inherit
 
 [Install]
