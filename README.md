@@ -24,8 +24,8 @@ Repository klonen:
 Bash
 
 <CODE>
-git clone https://github.com/dein-nutzername/docmost-importier.git
-cd docmost-importier
+git clone https://github.com/o-valo/Das-docmost-Importier-.git
+cd Das-docmost-Importier-
 </CODE>
 
 
