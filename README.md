@@ -1,9 +1,6 @@
 # Das Docmost Importier 🏗️
 
-Des **Docmost Importier** ist ein robuster Systemdienst für Linux, der wie ein
-Arbeitstier im Hintergrund schuftet. Er überwacht ein Verzeichnis auf
-HTML-Exporte (z. B. aus KI-Chats von Gemini), verwandelt sie per Pandoc in sauberes Markdown
-und schiebt sie automatisch in deinen Docmost-Space.
+Das Docmost Importier** ist ein robuster Systemdienst für Linux, der wie ein treues Arbeitstier stoisch im Hintergrund schuftet. Er überwacht ein definiertes Verzeichnis vollautomatisch auf neu eingehende Dokumente in den Formaten HTML, Markdown (.md) und reinen Text (.txt).  und schiebt sie automatisch in deinen Docmost-Space.
 
 ## Highlights
 - **Arbeitstier-Modus**: Läuft als `systemd`-Dienst und startet bei Fehlern
@@ -14,7 +11,7 @@ API-Headern. - **Ressourcenschonend**: Reagiert dank `inotify` sofort auf neue
 Dateien, ohne die CPU zu belasten.
 
 ## Voraussetzungen Linux Debian/Ubuntu 
-Folgende Werkzeuge müssen auf deinem Ubot/Server installiert sein: ```bash sudo
+Folgende Werkzeuge müssen auf deinem Server installiert sein: ```bash sudo
 apt update && sudo apt install jq inotify-tools pandoc curl -y
 
 ## Installation & Einrichtung
