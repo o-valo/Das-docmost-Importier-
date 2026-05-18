@@ -78,5 +78,9 @@ sudo systemctl start docmost-importier.service
 
 
 
+### Sicherheit & Schwachstellen melden 🔒
 
+Da dieses Skript mit sensiblen Zugangsdaten (Passwörter/Tokens) hantiert, nimm Sicherheit bitte ernst:
+* **Keine Passwörter im Code:** Nutze ausschließlich die `docmost.conf` und stelle sicher, dass diese Datei niemals auf GitHub committet wird (sie steht bereits in der `.gitignore`).
+* **Schwachstellen melden:** Falls du eine Sicherheitslücke im Skript findest, öffne bitte **kein** öffentliches Issue. Kontaktiere mich stattdessen direkt per E-Mail oder über die Kontaktwege in meinem GitHub-Profil, damit wir das Problem diskret und zügig beheben können.
 
