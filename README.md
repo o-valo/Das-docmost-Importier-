@@ -4,17 +4,14 @@ Das Docmost Importier** ist ein robuster Systemdienst für Linux, der wie ein tr
 
 Sobald eine Datei im Watch-Folder landet, schnappt sich das Skript die Arbeit:
 
-    HTML-Dateien (z. B. aus KI-Chats vom Gemini Chat Exporter) werden per Pandoc blitzschnell in sauberes GitHub-Flavored-Markdown verwandelt.
+HTML-Dateien (z. B. aus KI-Chats vom Gemini Chat Exporter) werden per Pandoc blitzschnell in sauberes GitHub-Flavored-Markdown verwandelt.
 
-    Markdown-Dateien (.md) werden ohne Umwege direkt für den Upload vorbereitet.
+Markdown-Dateien (.md) werden ohne Umwege direkt für den Upload vorbereitet.
 
-    Textdateien (.txt) (wie Skripte oder rohe Logbucheinträge) werden automatisch in einen sicheren Markdown-Code-Block verpackt, damit keine einzige Einrückung oder Formatierung verloren geht.
+Textdateien (.txt) (wie Skripte oder rohe Logbucheinträge) werden automatisch in einen sicheren Markdown-Code-Block verpackt, damit keine einzige Einrückung oder Formatierung verloren geht.
 
 
     
-
-
-
 ## Highlights
 - **Arbeitstier-Modus**: Läuft als `systemd`-Dienst und startet bei Fehlern
 automatisch neu. - **Smarte Konvertierung**: Verwendet `pandoc`, um HTML in
