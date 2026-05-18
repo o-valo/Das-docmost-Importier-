@@ -1,5 +1,5 @@
 
-## Das Docmost Importier 🏗️
+### Das Docmost Importier 🏗️
 
 Das Docmost Importier ist ein robuster Systemdienst für Linux, der
 wie ein treues Arbeitstier stoisch im Hintergrund schuftet. Er überwacht
@@ -78,7 +78,9 @@ sudo systemctl start docmost-importier.service
 
 
 
-### Sicherheit & Schwachstellen melden 🔒
+
+
+## Sicherheit & Schwachstellen melden 🔒
 
 Da dieses Skript mit sensiblen Zugangsdaten (Passwörter/Tokens) hantiert, nimm Sicherheit bitte ernst:
 * **Keine Passwörter im Code:** Nutze ausschließlich die `docmost.conf` und stelle sicher, dass diese Datei niemals auf GitHub committet wird (sie steht bereits in der `.gitignore`).
