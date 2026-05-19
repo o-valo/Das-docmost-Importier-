@@ -46,8 +46,7 @@ Erstelle im Verzeichnis die Datei `docmost.conf` und fülle sie mit
 deinen Basisdaten (URL, E-Mail, Passwort sowie die Pfade für  
 Watch-Folder und Logfile). Nutze dafür diese Vorlage:
 
-Ini,  
-TOML
+
 
 ```
 # ==============================================================================
