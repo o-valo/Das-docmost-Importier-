@@ -55,7 +55,7 @@ Watch-Folder und Logfile). Nutze dafür diese Vorlage:
 
 # 1. API-Zugangsdaten
 # Die URL deiner Docmost-Instanz (inkl. Port, falls nötig)
-DOCMOST_URL="[http://10.7.0.](http://10.7.0.)x:3000"
+DOCMOST_URL="http://10.7.0.x:3000"
 
 # Deine Login-Email
 EMAIL="admin@deine-domain.de"
